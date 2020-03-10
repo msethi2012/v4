@@ -42,7 +42,7 @@ export function fetchStuff(flag) {
 }*/
 export function fetchStuff(flag) {
     return (dispatch) => {
-        if () dispatch(receiveStuff(mocData.data))
+        if (flag === "service") dispatch(receiveStuff(mocData.data))
         if (flag === "provider") dispatch(receiveStuff(mocData2.data))
     };
 }
