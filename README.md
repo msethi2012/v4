@@ -1,4 +1,6 @@
-#Installation and to start the project, Please find the command listed below 
+#Install  the project, 
 
 npm install 
+
+#Start the project, 
 npm start 
